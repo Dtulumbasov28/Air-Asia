@@ -122,17 +122,22 @@ margin-right: 0;
   border-radius: 4px;
   display: inline-block;
   margin-right: 28px;
-  width: 362px;
+  width: 345px;
+  height: 449px;
 }
 .offers__item:last-child {
   margin-right: 0;
 }
 .offers__header {
   min-height: 144px;
-  margin-bottom: 28px;
+}
+.offers__header-img {
+  width: 345px;
+  height: 144px;
+  margin-bottom: px;
 }
 .offers__content {
-  padding: 22px 26px;
+  padding: 22px 25px;
   color: #000000;
 }
 .offers__title {
@@ -157,6 +162,7 @@ margin-right: 0;
 }
 .offers__text {
   color: #303030;
+  font-size: 14px;
   margin-bottom: 24.5px;
 }
 .btn--color--red {
