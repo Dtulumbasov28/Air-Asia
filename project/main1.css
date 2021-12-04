@@ -143,7 +143,6 @@ margin-right: 0;
 .offers__planes-cell {
   display: inline-block;
   vertical-align: top;
-  width: 271px;
   margin-right: 25px;
 }
 .offers__planes-cell:last-child {
@@ -158,6 +157,7 @@ margin-right: 0;
 }
 .offers__text {
   color: #303030;
+  margin-bottom: 24.5px;
 }
 .btn--color--red {
   color: #FFF;
