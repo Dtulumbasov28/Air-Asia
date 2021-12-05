@@ -30,6 +30,9 @@ p {
 * {
   box-sizing: border-box;
 }
+.main-page-wrapper {
+background: url(./img/fon1.png) center top -6px no-repeat, url(./img/fon2.png) center bottom 165px no-repeat;
+}
 .container {
   margin: 0 auto;
   width: 1140px;
@@ -74,6 +77,10 @@ margin-right: 0;
   text-align: right;
   top: 19px;
   right: -1px;
+}
+.contacts__desc {
+  font-size: 11px;
+  color: #9A9A9A;
 }
 .contacts__phone {
   text-decoration: none;
@@ -233,6 +240,7 @@ margin-right: 0;
 
 .pager {
   text-align: center;
+  margin-bottom: 152px;
 }
 .pager__display, .pager__list {
 display: inline-block;
@@ -270,9 +278,11 @@ vertical-align: middle;
 .about__desc {
   background: url(./img/mountains.png);
   padding: 70px 81px;
-  width: 785px;
-  margin-right: 0px;
-  margin-top: 0px;
+  width: 745px;
+  margin-left: -100px;
+  margin-top: 100px;
+  border-radius: 5px;
+  margin-bottom: 100px;
 }
 .about:before, .about__desc {
   display: inline-block;
@@ -293,4 +303,51 @@ vertical-align: middle;
 }
 .about__desc-text p:last-child {
   margin-bottom: 0;
+}
+.footer {
+  height: 93px;
+  position: relative;
+}
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.socials {
+  position: absolute;
+  top: 9px;
+  right: 265px;
+}
+.socials__item:last-child {
+  margin-right: 0px;
+}
+.socials__item--icon--tg .socials__link {
+  background-image: url(./img/tg2.png) ;
+}
+.socials__item--icon--tg .socials__link:hover {
+  background-image: url(./img/tg1.png);
+}
+.socials__item--icon--vk .socials__link {
+  background-image: url(./img/vk2.png) ;
+}
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(./img/vk1.png);
+}
+.socials__item--icon--fb .socials__link {
+  background-image: url(./img/fb2.png) ;
+}
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(./img/fb1.png);
+}
+.socials__item--icon--inst .socials__link {
+  background-image: url(./img/inst2.png) ;
+}
+.socials__item--icon--inst .socials__link:hover {
+  background-image: url(./img/inst1.png);
 }
