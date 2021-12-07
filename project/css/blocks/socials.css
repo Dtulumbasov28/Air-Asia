@@ -1,0 +1,43 @@
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.socials {
+  position: absolute;
+  top: 24px;
+  right: 265px;
+}
+.socials__item:last-child {
+  margin-right: 0px;
+}
+.socials__item--icon--tg .socials__link {
+  background-image: url(../../img/tg2.png) ;
+}
+.socials__item--icon--tg .socials__link:hover {
+  background-image: url(../../img/tg1.png);
+}
+.socials__item--icon--vk .socials__link {
+  background-image: url(../../img/vk2.png) ;
+}
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(../../img/vk1.png);
+}
+.socials__item--icon--fb .socials__link {
+  background-image: url(../../img/fb2.png) ;
+}
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url(../../img/fb1.png);
+}
+.socials__item--icon--inst .socials__link {
+  background-image: url(../../img/inst2.png) ;
+}
+.socials__item--icon--inst .socials__link:hover {
+  background-image: url(../../img/inst1.png);
+}

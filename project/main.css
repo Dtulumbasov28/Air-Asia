@@ -1,0 +1,15 @@
+@import url(./css/layout/normalize.css);
+@import url(./css/layout/base.css);
+@import url(./css/blocks/header.css);
+@import url(./css/blocks/logo.css);
+@import url(./css/blocks/menu.css);
+@import url(./css/blocks/contacts.css);
+@import url(./css/blocks/hero__content.css);
+@import url(./css/blocks/btn.css);
+@import url(./css/blocks/section.css);
+@import url(./css/blocks/offers.css);
+@import url(./css/blocks/news.css);
+@import url(./css/blocks/pager.css);
+@import url(./css/blocks/about.css);
+@import url(./css/blocks/footer.css);
+@import url(./css/blocks/socials.css);

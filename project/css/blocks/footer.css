@@ -1,0 +1,7 @@
+.footer-container__content {
+  border-top: 0.1px solid  rgba(255, 255, 255, 0.1)
+}
+.footer {
+  height: 93px;
+  position: relative;
+}
