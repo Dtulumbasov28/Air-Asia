@@ -6,12 +6,16 @@ body {
   background: #001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 * {
   box-sizing: border-box;
 }
 a {
   color: inherit;
+}
+ul {
+  margin: 0px;
 }
 .ul {
   padding: 0px;
@@ -50,7 +54,7 @@ background: url(./img/fon1.png) center top -6px no-repeat, url(./img/fon2.png) c
 }
 .menu {
   position: absolute;
-  top: 15px;
+  top: 32px;
   left: 125px;
 }
 .menu__item {
@@ -135,8 +139,8 @@ margin-right: 0;
   background: #FFF;
   border-radius: 4px;
   display: inline-block;
-  margin-right: 40px;
-  width: 345px;
+  margin-right: 27px;
+  width: 355px;
   height: 449px;
 }
 .offers__item:last-child {
@@ -211,6 +215,9 @@ margin-right: 0;
   border-radius: 5px;
   overflow: hidden;
   margin-right: 10px;
+}
+.news__item:last-child {
+  margin-right: 0px;
 }
 .news__cover {
   display: block;
@@ -304,6 +311,9 @@ vertical-align: middle;
 .about__desc-text p:last-child {
   margin-bottom: 0;
 }
+.footer-container__content {
+  border-top: 0.1px solid  rgba(255, 255, 255, 0.1)
+}
 .footer {
   height: 93px;
   position: relative;
@@ -321,7 +331,7 @@ vertical-align: middle;
 }
 .socials {
   position: absolute;
-  top: 9px;
+  top: 24px;
   right: 265px;
 }
 .socials__item:last-child {
