@@ -1,22 +1,22 @@
+.about {
+  display: flex;
+}
 .about:before {
   content: "";
   width: 490px;
   height: 505px;
   background: url(../../img/gates.png) center center / cover no-repeat;
   margin-right: 0px;
+  display: block;
 }
 .about__desc {
   background: url(../../img/mountains.png);
   padding: 70px 81px;
-  width: 745px;
+  max-width: 745px;
   margin-left: -100px;
   margin-top: 100px;
   border-radius: 5px;
   margin-bottom: 100px;
-}
-.about:before, .about__desc {
-  display: inline-block;
-  vertical-align: top;
 }
 .about__title {
   font-size: 36px;

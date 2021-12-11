@@ -4,4 +4,14 @@
 .footer {
   height: 93px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+.footer__col--align--rignt {
+  align-items: flex-end;
 }

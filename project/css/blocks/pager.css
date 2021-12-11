@@ -1,15 +1,16 @@
 .pager {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 152px;
 }
 .pager__display, .pager__list {
-display: inline-block;
-vertical-align: middle;
-margin-right: 25px;
+display: flex;
+align-items: center;
+margin-right: 2%;
 }
 .pager__item {
-  display: inline-block;
-  vertical-align: middle;
+  text-align: center;
 }
 .pager__item-active .pager__link {
   color: #F5170E;

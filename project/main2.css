@@ -1,0 +1,19 @@
+.services-page-wrapper {
+  background: url(./img/headline.png) center top no-repeat, #F2F2F2 center 80px;
+  overflow: hidden;
+  min-width: 1150px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.heros__title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 103px;
+  line-height: 82px;
+}
+.heros__subtitle-one {
+  font-size: 14px;
+  color: #9A9A9A;
+  text-decoration: underline;
+}

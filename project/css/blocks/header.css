@@ -1,5 +1,14 @@
 .header {
-  height: 60px;
-  position: relative;
-  margin-bottom: 139px;
+  padding-top: 29px;
+  margin-bottom: 131px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__col {
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
 }

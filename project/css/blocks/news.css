@@ -1,26 +1,30 @@
 .news {
   padding: 0;
   margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
 }
 .news__item {
   width: 557px;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-right: 10px;
+  height: 394px;
+  flex: 1;
+  margin-right: 2%;
 }
-.news__item:last-child {
+.single-news {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.single-news__item:last-child {
   margin-right: 0px;
 }
-.news__cover {
+.single-news__cover {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.news__text-content {
+.single-news__text-content {
   position: absolute;
   left: 0;
   right: 0;
@@ -28,13 +32,12 @@
   padding: 25px 30px;
   min-height: 140px;
 }
-.news__date {
+.single-news__date {
   font-size: 14px;
 }
-.news__title {
+.single-news__title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 3.5px;
   margin-top: 12.5px;
-  /* Не выходит поднять new__date с помощью mb, поэтому использовал mt */
 }

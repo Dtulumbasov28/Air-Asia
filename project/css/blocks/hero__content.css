@@ -1,5 +1,5 @@
 .hero__text-section {
-  width: 520px;
+  width: 52%;
   margin-bottom: 246px;
 }
 .hero__title {
@@ -11,4 +11,10 @@
 .hero__subtitle {
   font-size: 18px;
   margin-bottom: 29px;
+}
+.hero--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
 }

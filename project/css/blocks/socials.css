@@ -1,3 +1,7 @@
+.socials {
+margin-right: 74px;
+
+}
 .socials__link {
   display: block;
   text-decoration: none;
@@ -9,11 +13,7 @@
   vertical-align: middle;
   margin-right: 10px;
 }
-.socials {
-  position: absolute;
-  top: 24px;
-  right: 265px;
-}
+
 .socials__item:last-child {
   margin-right: 0px;
 }

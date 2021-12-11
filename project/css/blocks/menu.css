@@ -1,18 +1,13 @@
-.menu {
-  position: absolute;
-  top: 32px;
-  left: 125px;
-}
 .menu__item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 50px;
 }
 .menu__item--active .menu__link {
-color: #DA0100;
+  color: #DA0100;
 }
 .menu__item:last-child {
-margin-right: 0;
+  margin-right: 0;
 }
 .menu__link {
   font-size: 14px;
