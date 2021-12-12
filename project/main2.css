@@ -144,10 +144,6 @@ color: #9A9A9A;
   display: flex;
   flex-wrap: wrap;
 }
-.partners__item {
-
-}
-
 .partners__link {
   text-decoration: none;
   display: flex;
@@ -159,5 +155,4 @@ color: #9A9A9A;
 }
 .partners__link:hover {
   filter: grayscale(0);
-
 }
