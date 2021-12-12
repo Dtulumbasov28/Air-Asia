@@ -1,8 +1,10 @@
 .footer-container__content {
   border-top: 0.1px solid  rgba(255, 255, 255, 0.1)
 }
-.footer {
+.footer-conteiner__section {
   height: 93px;
+}
+.footer {
   position: relative;
   display: flex;
   align-items: center;
@@ -14,4 +16,10 @@
 }
 .footer__col--align--rignt {
   align-items: flex-end;
+}
+.inner-footer__container {
+  padding: 45px 0;
+}
+.inner-footer {
+  margin-top: auto;
 }

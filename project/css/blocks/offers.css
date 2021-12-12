@@ -70,5 +70,12 @@
   background: #fff;
   border: 1px solid #F5170E;
   padding: 15px 30px;
-  
+}
+.offer__content .btn--color--red:hover {
+  background: #DA0100;
+  box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+}
+.offer__content .btn--color--white:hover {
+  background: #F5170E;
+  color: #fff;
 }

@@ -35,7 +35,9 @@
   font-size: 72px;
   font-weight: bold;
   line-height: 1;
+  margin-top: -136px;
 }
+/* Не знаю с помощью чего выровнять page__title кроме как через mt. Если выравниваю через header, то на главной странице тоже меняется отступ */
 .breadcrumbs__list {
   display: flex;
   align-items: center;
@@ -59,28 +61,103 @@ color: #9A9A9A;
   font-size: 14px;
 }
 .page__content {
-  background: #F2F2F2;
+  background: #FFF;
   color: #303030;
-  padding: 40px 0;
+  padding: 90px 0;
 }
 .service {
   display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.services {
+  margin-bottom: 69px;
+}
+.service:hover {
+  background: #e0e0e0;
 }
 .service__img {
-  width: 30%;
-  margin-right: 7%;
+  width: 40%;
+  margin-right: 5%;
 }
 .service__content {
   flex: 1;
+  padding: 14px 0px;
 }
 .service__title {
-  font-style: 36px;
+  font-size: 36px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
+/* Не могу выровнять заголовок с текстом */
 .service__desc {
   line-height: 27px;
-  margin-bottom: 50px;
+  margin-bottom: 52.5px;
+  max-width: 652px;
+}
+.services__item .btn--color--red {
+  color: #FFF;
+  background: #F5170E;
+  padding: 18px 40px;
+}
+.services__item .btn--color--white {
+  color: #F5170E;
+  background: #fff;
+  border: 1px solid #F5170E;
+  padding: 18px 40px;
+}
+.services__item .btn--color--red:hover {
+  background: #DA0100;
+  box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+}
+.services__item .btn--color--white:hover {
+  background: #F5170E;
+  color: #fff;
+}
+.pager--theme--light {
+  color: #000;
+  margin-bottom: 0;
+}
+.pager--theme--light .pager__item-active .pager__link {
+  color: #fff;
+  background: #F5170E;
+}
+.pager--theme--light .pager__link:hover {
+  color: #fff;
+  background: #F5170E;
+}
+.inner-section {
+  background: #fff;
+  color: #1A1B1E;
+  padding: 80px 0;
+}
+.inner-section--bg--grey {
+  background: #F4F5F5;
+}
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partners__item {
+
 }
 
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+}
+.partners__link:hover {
+  filter: grayscale(0);
+
+}
