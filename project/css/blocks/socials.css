@@ -1,17 +1,17 @@
 .socials {
+  display: flex;
+  align-items: flex-end;
   margin-right: 74px;
 
 }
 .socials__link {
-  display: block;
   text-decoration: none;
   width: 36px;
   height: 36px;
 }
 .socials__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
+  display: flex;
+  padding: 0 5px;
 }
 
 .socials__item:last-child {

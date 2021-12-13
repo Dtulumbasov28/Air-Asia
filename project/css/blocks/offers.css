@@ -23,6 +23,7 @@
 }
 .offer__header {
   min-height: 144px;
+  margin-bottom: 13px;
 }
 .offer__header-img {
   width: 362px;

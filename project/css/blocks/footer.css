@@ -12,10 +12,12 @@
 }
 .footer__col {
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 .footer__col--align--rignt {
-  align-items: flex-end;
+  display: flex;
+  align-items: center;
+
 }
 .inner-footer__container {
   padding: 45px 0;

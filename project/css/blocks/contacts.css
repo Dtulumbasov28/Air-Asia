@@ -1,6 +1,7 @@
 .contacts {
   font-style: normal;
   text-align: right;
+  width: 191px;
 }
 .contacts__desc {
   font-size: 11px;
