@@ -1,3 +1,8 @@
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
 .btn {
   display: inline-block;
   font-size: 14px;
@@ -11,6 +16,9 @@
 .btn:hover {
   background: #DA0100;
   box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+}
+.btn--color--red {
+  color: #fff;
 }
 .btn--color--red:hover {
   background: #DA0100;
