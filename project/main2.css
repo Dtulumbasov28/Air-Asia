@@ -72,6 +72,7 @@ color: #9A9A9A;
 }
 .services {
   margin-bottom: 52px;
+  transition: calc(.5s);
 }
 .service:hover {
   background: #e0e0e0;
@@ -104,12 +105,14 @@ margin-bottom: 0;
   color: #FFF;
   background: #F5170E;
   padding: 18px 40px;
+  transition: calc(.5s);
 }
 .services__item .btn--color--white {
   color: #F5170E;
   background: #fff;
   border: 1px solid #F5170E;
   padding: 18px 40px;
+  transition: calc(.5s);
 }
 .services__item .btn--color--red:hover {
   background: #DA0100;
@@ -126,6 +129,7 @@ margin-bottom: 0;
 .pager--theme--light .pager__item-active .pager__link {
   color: #fff;
   background: #F5170E;
+  transition: calc(.5s);
 }
 .pager--theme--light .pager__link:hover {
   color: #fff;
@@ -168,6 +172,7 @@ margin-bottom: 0;
   height: 100px;
   align-items: center;
   filter: grayscale(100%);
+  transition: calc(.5s);
 }
 .partners__link:hover {
   filter: grayscale(0);

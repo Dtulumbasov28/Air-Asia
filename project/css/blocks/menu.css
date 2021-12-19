@@ -17,6 +17,7 @@ margin-right: 54px;
 .menu__link {
   font-size: 14px;
   text-decoration: none;
+  transition: calc(.5s);
 }
 .menu__link:hover {
   color: #DA0100;

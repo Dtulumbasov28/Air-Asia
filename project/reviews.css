@@ -17,7 +17,9 @@
   height: 142px;
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 22px;
 }
+
 .review__header {
   display: flex;
   align-items: center;
@@ -87,6 +89,7 @@
 }
 .separator__content::after {
   content: url(./img/reviews/couple.png);
+  margin-bottom: -29px;
   
 }
 .form__row {
@@ -123,6 +126,8 @@ margin-right: 0;
   display: flex;
   flex-wrap: wrap;
   flex: 1;
+  margin-bottom: -9px;
+  margin-right: -8px;
 }
 .controls__item {
   margin-bottom: 9px;
@@ -140,9 +145,14 @@ background: #B9EAE4;
 .btn--color--black {
   background: #8E8E8E;
   color: #fff;
+  transition: calc(.5s);
 }
 .btn--color--black:hover {
   background: #2B2B2B;
+}
+.form__input {
+  border-radius: 5px;
+  resize: none;
 }
 .form__btns {
   display: flex;

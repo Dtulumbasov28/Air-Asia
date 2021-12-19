@@ -8,6 +8,7 @@
   text-decoration: none;
   width: 36px;
   height: 36px;
+  transition: calc(.5s);
 }
 .socials__item {
   display: flex;

@@ -30,4 +30,5 @@ margin-right: 2%;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  transition: calc(.5s);
 }

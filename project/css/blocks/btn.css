@@ -12,13 +12,16 @@ button {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  transition: calc(.5s);
 }
 .btn:hover {
   background: #DA0100;
   box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+  
 }
 .btn--color--red {
   color: #fff;
+  transition: calc(.5s);
 }
 .btn--color--red:hover {
   background: #DA0100;
