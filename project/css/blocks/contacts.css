@@ -32,11 +32,25 @@
   font-size: 14px;
   margin-left: 30px;
   opacity: 0;
+  transition: .3s;
 }
-/* .timetable__item--bold {
+.timetable__trigon {
+position: absolute;
+height: 50px;
+width: 50px;
+background: #EDEDED;
+transform: translatex(30px) translateY(-20px) rotate(45deg);
+z-index: 0;
+
+}
+.timetable__item {
+  z-index: 1;
+}
+.timetable__item:first-child {
   font-weight: bold;
   margin-bottom: 1px;
-} */
-.contacts__phone:hover .timetable {
+}
+
+.contacts__dropdown-title:hover ~ .timetable {
   opacity: 1;
 }
