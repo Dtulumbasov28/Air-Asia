@@ -12,4 +12,5 @@
 }
 .header__col--align--right {
   justify-content: flex-end;
+  margin-bottom: -103px;
 }
