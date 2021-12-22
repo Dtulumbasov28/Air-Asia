@@ -1,9 +1,9 @@
 .header {
-  padding-top: 29px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 130px;
+  margin-bottom: 79px;
+  height: 125px;
 }
 .header__col {
   display: flex;
@@ -12,5 +12,4 @@
 }
 .header__col--align--right {
   justify-content: flex-end;
-  margin-bottom: -103px;
 }

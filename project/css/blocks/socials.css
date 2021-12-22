@@ -8,37 +8,34 @@
   text-decoration: none;
   width: 36px;
   height: 36px;
-  transition: calc(.5s);
 }
 .socials__item {
   display: flex;
   padding: 0 5px;
 }
-
 .socials__item:last-child {
   margin-right: 0px;
 }
 .socials__item--icon--tg .socials__link {
-  background-image: url(../../img/tg2.png) ;
+  background: url(../../img/css_sprites.png) -122px -66px;
 }
 .socials__item--icon--tg .socials__link:hover {
-  background-image: url(../../img/tg1.png);
+  background: url(../../img/css_sprites.png) -122px -10px;
 }
 .socials__item--icon--vk .socials__link {
-  background-image: url(../../img/vk2.png) ;
+  background: url(../../img/css_sprites.png) -66px -122px;
 }
 .socials__item--icon--vk .socials__link:hover {
-  background-image: url(../../img/vk1.png);
-}
+  background: url(../../img/css_sprites.png) -10px -122px;}
 .socials__item--icon--fb .socials__link {
-  background-image: url(../../img/fb2.png) ;
+  background: url(../../img/css_sprites.png) -66px -10px;
 }
 .socials__item--icon--fb .socials__link:hover {
-  background-image: url(../../img/fb1.png);
+  background: url(../../img/css_sprites.png) -10px -10px;
 }
 .socials__item--icon--inst .socials__link {
-  background-image: url(../../img/inst2.png) ;
+  background: url(../../img/css_sprites.png) -66px -66px;
 }
 .socials__item--icon--inst .socials__link:hover {
-  background-image: url(../../img/inst1.png);
+  background: url(../../img/css_sprites.png) -10px -66px;
 }
