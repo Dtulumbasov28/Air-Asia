@@ -1,0 +1,47 @@
+.pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 152px;
+}
+
+.pager__display, .pager__list {
+display: flex;
+align-items: center;
+margin-right: 2%;
+}
+.pager__item {
+  text-align: center;
+}
+.pager__item-active .pager__link {
+  color: #F5170E;
+  background: #fff;
+}
+.pager__link:hover {
+  color: #F5170E;
+  background: #fff;
+}
+.pager__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+  transition: calc(.5s);
+}
+.pager--theme--light {
+  color: #000;
+  margin-bottom: 0;
+}
+.pager--theme--light .pager__item-active .pager__link {
+  color: #fff;
+  background: #F5170E;
+  transition: calc(.5s);
+}
+.pager--theme--light .pager__link:hover {
+  color: #fff;
+  background: #F5170E;
+}
