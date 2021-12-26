@@ -2,17 +2,19 @@
   font-style: normal;
   text-align: right;
   width: 191px;
+  height: 74px;
 }
 .contacts__desc {
   font-size: 11px;
   color: #9A9A9A;
+  margin-top: 16px;
 }
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 4px;
 }
 .contacts__dropdown-title {
+  display: inline-block;
   font-size: 13px;
   text-decoration: underline;
   margin-top: -8px;
@@ -31,7 +33,7 @@
   border-radius: 5px;
   font-size: 14px;
   margin-left: 30px;
-  opacity: 1;
+  opacity: 0;
   transition: .3s;
 }
 .timetable__trigon {

@@ -17,10 +17,10 @@
 .footer__col--align--rignt {
   display: flex;
   align-items: center;
-
 }
 .inner-footer__container {
-  padding: 45px 0;
+  padding: 30px 0;
+  height: 115px;
 }
 .inner-footer {
   margin-top: auto;

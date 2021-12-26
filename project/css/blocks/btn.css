@@ -31,3 +31,11 @@ button {
   background: #F5170E;
   color: #fff;
 }
+.btn--color--black {
+  background: #8E8E8E;
+  color: #fff;
+  transition: calc(.5s);
+}
+.btn--color--black:hover {
+  background: #2B2B2B;
+}

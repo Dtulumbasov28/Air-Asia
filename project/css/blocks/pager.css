@@ -32,3 +32,16 @@ margin-right: 2%;
   line-height: 32px;
   transition: calc(.5s);
 }
+.pager--theme--light {
+  color: #000;
+  margin-bottom: 0;
+}
+.pager--theme--light .pager__item-active .pager__link {
+  color: #fff;
+  background: #F5170E;
+  transition: calc(.5s);
+}
+.pager--theme--light .pager__link:hover {
+  color: #fff;
+  background: #F5170E;
+}
