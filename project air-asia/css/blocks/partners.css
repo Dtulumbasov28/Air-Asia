@@ -1,0 +1,29 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 236px;
+}
+.partners__item {
+  margin-left: 20px;
+
+}
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+
+}
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  filter: grayscale(100%);
+  transition: calc(.5s);
+}
+.partners__link:hover {
+  filter: grayscale(0);
+}
