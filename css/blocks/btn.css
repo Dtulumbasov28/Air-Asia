@@ -1,0 +1,41 @@
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: calc(.5s);
+}
+.btn:hover {
+  background: #DA0100;
+  box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+  
+}
+.btn--color--red {
+  color: #fff;
+  transition: calc(.5s);
+}
+.btn--color--red:hover {
+  background: #DA0100;
+  box-shadow: 0 2 4  30% rgba(218, 1, 0, 0.3);
+}
+.btn--color--white:hover {
+  background: #F5170E;
+  color: #fff;
+}
+.btn--color--black {
+  background: #8E8E8E;
+  color: #fff;
+  transition: calc(.5s);
+}
+.btn--color--black:hover {
+  background: #2B2B2B;
+}
